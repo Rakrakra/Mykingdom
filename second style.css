@@ -1,0 +1,83 @@
+body{
+    
+    background-image: url("https://www.gifcen.com/wp-content/uploads/2023/08/rain-gif-5.gif");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    
+    
+    
+
+}
+#Cas{
+    bottom: 0rem;
+    position: fixed ;
+}
+#cloud{
+    position: fixed;
+    top: 3rem;
+    left:20rem;
+    width: 20rem;
+    height: 32rem;
+    animation: mySlide;
+    animation-iteration-count: infinity;
+    animation-duration: 2s;
+}
+#back{
+    position: fixed;
+    right: 0rem;
+    bottom: 0rem;
+    height: 5rem;
+    width: 10rem;
+    cursor: pointer;
+    font-size: 2rem;
+    background-color: cadetblue;
+    border-radius: 9%;
+}
+h1{
+    position: fixed;
+    right: 5rem;
+    font-size: 6rem;
+    color: burlywood;
+
+
+}
+@keyframes mySlide{
+    from{margin-top: -100%;}
+    to{margin-top: 0%;}
+
+}
+#demo{
+    color: brown;
+    font-size: xx-large;
+}
+#but{
+    background-color: blue;
+
+}
+#form{
+    font-size: 2rem;
+    position: fixed;
+    right: 25rem;
+    bottom: 15rem;
+
+}
+.lab{
+    color: aqua;
+}
+.int{
+    background-color: green;
+    height: 1.5rem;
+    width: 6rem;
+}
+.sub{
+    height: 3rem;
+    width: 5rem;
+    background-color: aqua;
+    border-color: blue;
+}
+    
+
+
+

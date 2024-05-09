@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(30, 23, 23);
+}
+h1{
+    color: rgb(83, 121, 118); 
+   
+    text-align: center;
+    font-family: "Bungee Spice"    ;
+    font-size: 4rem;
+}
+
+.doom{
+    color: brown;
+    font-family: "Jersey 10";
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+
+#p2{
+    color: orange;
+    
+    
+}
+#p4{
+    color: orange;
+    
+}
+.rad{
+    color: rgb(255, 149, 0);
+    font-size: xx-large;
+    text-align: center;
+}
+.goo{
+    color: orange;
+    font-size: 50px;
+    
+} 
+#con{
+    height:20px ;
+    color: rgb(2, 2, 2);
+    background-color: chocolate;
+    border-color: darkorange;
+    height: 3rem;
+    width: 5rem;
+    font-size: 30px;
+    position: fixed;
+    bottom: 2rem;
+    right: 5rem;
+    width: 5rem;
+    cursor: pointer;
+}
+
+#cas{
+    font-size: 30px;
+    position: fixed;
+    bottom: 0rem;
+    right: 1rem;
+    width: 20rem;
+    height: 30rem;
+}
+
+#dak{
+    top: 5rem;
+    position: fixed;
+   
+    left: 5rem;
+    width: 15rem;
+    height: 20rem;
+    cursor: pointer;
+    animation: mySlide;
+    animation-iteration-count: infinity;
+    animation-duration: 5s;
+    
+}
+/*
+#O{
+    top: 14rem;
+    position: fixed;
+    
+    left: 13rem;
+    width: 1rem;
+    height: 2rem;
+    border-radius: 500%;
+    color: aliceblue;
+    background-color: aliceblue;
+    border-color: aliceblue;
+
+}
+*/
+#mid{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: goldenrod;
+    font-family: "Jersey 10";
+    font-size: 20px;
+}
+@keyframes mySlide{
+    from{top: -100%;}
+    to{margin-top: 0%;}
+}
